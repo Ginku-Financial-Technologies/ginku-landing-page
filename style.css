@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+    background: #f6f8f9;
+    color: #222;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="email"] {
+    padding: 0.7rem;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #1aab8a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #138f71;
+}
